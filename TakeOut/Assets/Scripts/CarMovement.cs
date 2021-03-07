@@ -46,9 +46,20 @@ public class CarMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Food")) {
           other.gameObject.SetActive(false);
-          
+
+  
           //count++;
           //SetCountText();
         }
+         
+        if (other.gameObject.CompareTag("House")) {
+
+          // what happens when food is delivered to house?
+        }
+
     }
+
+
+
+
 }
